@@ -1,0 +1,7 @@
+---
+applications:
+- name: kieserver-servicebroker
+  memory: 512M 
+  instances: 1
+  host: kieserver-servicebroker
+  path: target/kie-server-service-broker-0.0.1-SNAPSHOT.jar
